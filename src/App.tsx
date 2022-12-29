@@ -14,13 +14,7 @@ Amplify.configure({
   Auth: {
     region: COGNITO.REGION,
     userPoolId: COGNITO.USER_POOL_ID,
-    userPoolWebClientId: COGNITO.APP_CLIENT_ID,
-    cookieStorage: {
-      domain: 'localhost',
-      secure: true,
-      path: '/',
-      expires: 365,
-    }
+    userPoolWebClientId: COGNITO.APP_CLIENT_ID
   }
 })
 
